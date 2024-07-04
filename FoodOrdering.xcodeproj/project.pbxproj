@@ -27,6 +27,8 @@
 		4BF224E62C33C10B00627C48 /* ExampleDatabase.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4BF224E42C33C10B00627C48 /* ExampleDatabase.xcdatamodeld */; };
 		4BF224EA2C33C31C00627C48 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF224E92C33C31C00627C48 /* MenuItem.swift */; };
 		4BF224EC2C33C66D00627C48 /* Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF224EB2C33C66D00627C48 /* Hero.swift */; };
+		4BF224F52C37315400627C48 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF224F42C37315400627C48 /* UserModel.swift */; };
+		4BF224F72C37319600627C48 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF224F62C37319600627C48 /* UserViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +72,8 @@
 		4BF224E52C33C10B00627C48 /* ExampleDatabase.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ExampleDatabase.xcdatamodel; sourceTree = "<group>"; };
 		4BF224E92C33C31C00627C48 /* MenuItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
 		4BF224EB2C33C66D00627C48 /* Hero.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hero.swift; sourceTree = "<group>"; };
+		4BF224F42C37315400627C48 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		4BF224F62C37319600627C48 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +169,7 @@
 			children = (
 				4BF224E92C33C31C00627C48 /* MenuItem.swift */,
 				4BF224D72C33A27A00627C48 /* MenuList.swift */,
+				4BF224F42C37315400627C48 /* UserModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -186,6 +191,7 @@
 		4BF224CE2C336B2C00627C48 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				4BF224F62C37319600627C48 /* UserViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -330,9 +336,11 @@
 				4BF224A02C336A8900627C48 /* ContentView.swift in Sources */,
 				4BF224EA2C33C31C00627C48 /* MenuItem.swift in Sources */,
 				4BF2249E2C336A8900627C48 /* FoodOrderingApp.swift in Sources */,
+				4BF224F52C37315400627C48 /* UserModel.swift in Sources */,
 				4BF224D02C336CBB00627C48 /* OnboardingView.swift in Sources */,
 				4BF224DE2C33B4B500627C48 /* DishItemView.swift in Sources */,
 				4BF224D82C33A27A00627C48 /* MenuList.swift in Sources */,
+				4BF224F72C37319600627C48 /* UserViewModel.swift in Sources */,
 				4BF224DC2C33B3E800627C48 /* FetchedObjects.swift in Sources */,
 				4BF224D22C336CF000627C48 /* IntroView.swift in Sources */,
 			);
